@@ -8,4 +8,4 @@ def oxford_comma(array)
     narr = nstr.split(" ")
   end
 end
-oxford_comma(["hi","dog","cat","giraffe"])
+print (oxford_comma(["hi","dog","cat","giraffe"]))
