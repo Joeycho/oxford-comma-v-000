@@ -5,8 +5,12 @@ def oxford_comma(array)
     return array.join(" and ")
   else
     nstr = array.join(", ")
-    narr = nstr.split(" ")
-    narr[array.length-2]=array[array.length-2]+", and"
+    narr = nstr.split(", ")
+    for i in array.length
+      if i == array.length-2
+        narr[array.length-2]=array[array.length-2]+", and"
+      else
+        narr[i]=array[i]+","
 
     nnarr = narr.join(" ")
   end
