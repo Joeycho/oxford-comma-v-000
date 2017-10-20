@@ -6,7 +6,7 @@ def oxford_comma(array)
   else
     nstr = array.join(", ")
     narr = nstr.split(", ")
-    for i in array.length
+    for i in 0..array.length
       if i == array.length-2
         narr[array.length-2]=array[array.length-2]+", and"
       else
