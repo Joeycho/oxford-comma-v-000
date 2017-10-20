@@ -17,4 +17,4 @@ def oxford_comma(array)
     nnarr = narr.join(" ")
   end
 end
-#print (oxford_comma(["hi","dog","cat","giraffe"]))
+print (oxford_comma(["hi","dog","cat","giraffe"]))
