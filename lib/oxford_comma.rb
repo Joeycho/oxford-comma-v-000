@@ -8,9 +8,9 @@ def oxford_comma(array)
     narr = nstr.split(", ")
     for i in 0..array.length
       if i == array.length-2
-        narr[array.length-2]=array[array.length-2]+", and"
+        narr[array.length-2]=array[array.length-2]+', and'
       else
-        narr[i]=array[i]+","
+        narr[i]=array[i]+','
       end
     end
 
