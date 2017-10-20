@@ -12,8 +12,10 @@ def oxford_comma(array)
       if i == array.length-2
         narr[array.length-2]=array[array.length-2] + ', and'
     #    print(array[array.length-2]+', and')
+      elsif i == array.length-1
+        narr[i]=array[i]
       else
-        narr[i]=array[i] + ','
+        narr[i]=array[i]+','
       end
     end
 
