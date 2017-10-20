@@ -7,11 +7,12 @@ def oxford_comma(array)
     nstr = array.join(", ")
     narr = nstr.split(", ")
     for i in 0..array.length
+      print(i)
       if i == array.length-2
   #      narr[array.length-2]=array[array.length-2] + ', and'
-         print(array[array.length-2]+', and')
+        # print(array[array.length-2]+', and')
       else
-        narr[i]=array[i] + ','
+        #narr[i]=array[i] + ','
       end
     end
 
