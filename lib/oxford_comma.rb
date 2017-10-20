@@ -11,6 +11,8 @@ def oxford_comma(array)
         narr[array.length-2]=array[array.length-2]+", and"
       else
         narr[i]=array[i]+","
+      end
+    end
 
     nnarr = narr.join(" ")
   end
